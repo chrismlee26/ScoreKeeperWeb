@@ -1,0 +1,26 @@
+body {
+  background-color: #292929;
+}
+
+.main {
+}
+
+.main__image {
+  display: block;
+  position: relative;
+  max-width: 100%;
+}
+
+.main__title {
+  position: absolute;
+  color: #ebebeb;
+  display: block;
+  text-align: center;
+  letter-spacing: 0.2em;
+  margin-left: 65%;
+  z-index: 1;
+  font-family: "Helvetica Neue";
+  font-weight: 400;
+  font-size: 4rem;
+  bottom: 25rem;
+}
