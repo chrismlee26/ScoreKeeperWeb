@@ -17,11 +17,31 @@ body {
   color: #ebebeb;
   display: block;
   text-align: center;
-  letter-spacing: 0.2em;
-  margin-left: 65%;
+  letter-spacing: 0.25em;
+  margin-left: 70%;
   z-index: 1;
   font-family: "Helvetica Neue";
   font-weight: 400;
-  font-size: 4rem;
-  bottom: 25rem;
+  font-size: 4.2rem;
+  bottom: 25%;
+}
+
+.app__logo {
+  position: absolute;
+  display: block;
+  width: 6.5%;
+  height: 6.5%;
+  margin-left: 75.5%;
+  z-index: 1;
+  bottom: 16%;
+}
+
+.dark__mode {
+  display: block;
+  position: fixed;
+  fill: white;
+  margin-left: 96%;
+  z-index: 1;
+  top: 4%;
+  cursor: pointer;
 }
