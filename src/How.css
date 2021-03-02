@@ -13,55 +13,36 @@
   bottom: 25%;
 }
 
-.compare__buttons {
+.main {
+  text-align: center;
   display: flex;
-  justify-content: space-between;
-  align-content: center;
-  align-items: center;
-  flex-direction: row;
-  margin-top: 3ex;
-  max-width: 60%;
-  margin-left: auto;
-  margin-right: auto;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
-.compare__button {
-  background: none !important;
-  width: 23.5rem;
-  height: 2rem;
-  border: 2px solid white;
-  color: white;
-  padding: 0 !important;
-  font-family: Georgia;
-  font-size: 1.4rem;
-  font-weight: lighter;
-  cursor: pointer;
-  transition-timing-function: ease-in-out;
-  transition: all 0.25s;
+.image {
+  display: inline-block;
+  padding: 5em;
+  margin: 0;
+  width: auto;
 }
 
-.compare__button:hover {
-  font-size: 1.5em;
-  text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6,
-    0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+.image-container {
+  vertical-align: middle;
+  margin-left: 15%;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: auto;
 }
 
-.compare__image__initial {
-  display: block;
-  position: relative;
-  max-width: 60%;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+.image-container::-webkit-scrollbar {
+  height: 0.3rem;
 }
 
-.compare__image {
-  display: block;
-  position: relative;
-  max-width: 60%;
-  margin-top: 1rem;
-  margin-bottom: 2rem;
-  margin-left: auto;
-  margin-right: auto;
+.image-container::-webkit-scrollbar-track {
+  background: #292929;
+}
+
+.image-container::-webkit-scrollbar-thumb {
+  background: darkgrey;
 }

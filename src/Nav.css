@@ -9,11 +9,11 @@
 }
 
 body::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.3rem;
 }
 
 body::-webkit-scrollbar-track {
-  background: white;
+  background: #292929;
 }
 
 body::-webkit-scrollbar-thumb {
@@ -39,6 +39,11 @@ body::-webkit-scrollbar-thumb {
 
 .nav-item {
   width: 100%;
+}
+
+.apple-logo {
+  width: 60%;
+  padding: 1em;
 }
 
 .nav-item:last-child {
